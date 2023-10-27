@@ -1,0 +1,198 @@
+/* CSS Variables */
+:root {
+  --logo-width: 100px;
+  --white: #ffffff;
+}
+
+/* Page Background */
+body {
+  background-color: #1f1f1f;
+  background-image: url("https://assets.24g.com/public/2022-frontend-test-project/bg_desktop.png");
+  font-family: "Brandon Grotesque", sans-serif; /* Using a custom font */
+}
+
+/* Header Text Styling */
+.text-container {
+  padding: 10px;
+  color: var(--white); /* Making use of CSS variable */
+  font-family: "Writable Story", cursive; /* Another custom font */
+}
+
+.heading-text {
+  text-align: center;
+  font-size: 10vh; /* Using viewport height unit for scalability */
+  word-break: break-word; /* Prevents text overflow */
+}
+
+/* Paragraph Styling */
+p {
+  font-family: "Brandon Grotesque", sans-serif;
+  text-align: center;
+  font-size: 4vh;
+  word-break: break-word;
+}
+
+/* Logo styles */
+.logo {
+  width: var(--logo-width);
+  height: auto;
+  opacity: 1;
+  left: 10px;
+  position: relative; /* Relative to its normal position */
+}
+
+/* Main container for the app, centers the content and provides padding */
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Drinks Grid Styling */
+.drinks-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates a 4-column grid */
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* Drink Card Styling */
+.drink-card {
+  position: relative; 
+  overflow: hidden; 
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Drink Details Overlay */
+.drink-details {
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6); 
+}
+
+/* Padding for drinks in the grid */
+.drink-grid {
+  padding: 1rem;
+}
+
+/* Drink Image Styling */
+.drink {
+  width: 100%; 
+}
+
+/* Responsive styles for tablet devices */
+@media screen and (min-width: 601px) and (max-width: 1023px) {
+  body {
+    background-image: url("https://assets.24g.com/public/2022-frontend-test-project/bg_tablet.png");
+    margin-top: 50px;
+  }
+
+  /* Adjusting grid columns for tablets */
+  .drinks-container {
+    grid-template-columns: repeat(3, 1fr); /* 3-column grid for tablets */
+  }
+}
+
+/* Responsive styles for desktop devices */
+/* @media screen and (min-width: 1024px) {
+  body {
+    background-image: url("https://assets.24g.com/public/2022-frontend-test-project/bg_desktop.png");
+    margin-top: 40px;
+  }
+} */
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url("https://assets.24g.com/public/2022-frontend-test-project/bg_mobile.png");
+    margin-top: 40px;
+  }
+
+  /* Adjusting grid columns for mobile */
+  .drinks-container {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+/* Styles for a modal overlay */
+.modal-overlay {
+  position: fixed; /* Fixed position regardless of scrolling */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+  display: flex; /* Centers the child modal */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensures the overlay appears on top */
+}
+
+/* Styles for the modal itself */
+.modal {
+  background: #1f1f1f;
+  width: 800px;
+  height: 519px;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  overflow-y: scroll; /* Adds a scrollbar */
+  color: #fff;
+  box-shadow: 0px 3px 6px #0000004d;
+}
+
+/* Custom scrollbar styles for the modal in plain CSS format */
+.modal::-webkit-scrollbar {
+  width: 10px;
+}
+
+.modal::-webkit-scrollbar-track {
+  background: #2e2e2e;
+}
+
+.modal::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+.modal::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+/* Close button style for the modal */
+.close-button {
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #fff;
+}
+
+/* Sections inside the modal */
+.ingredients-section,
+.instructions-section {
+  margin: 20px 0;
+}
+
+/* Styles for modal header */
+.heading-modal {
+  text-align: left;
+  font-size: 6.5vh;
+  font-weight: normal;
+}
+
+/* Specific button styles */
+.button-styling {
+  position: relative;
+  left: 373px; 
+}

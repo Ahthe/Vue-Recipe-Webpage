@@ -1,0 +1,276 @@
+{
+  "drinks": [
+    {
+      "id": 1,
+      "name": "Boozy Hot Chocolate",
+      "images": {
+        "front": "https://assets.24g.com/public/2022-frontend-test-project/card1_front.png",
+        "back": "https://assets.24g.com/public/2022-frontend-test-project/card1_back.png"
+      },
+      "ingredients": [
+        "1 packet of hot chocolate of choice",
+        "Milk/milk substitute to the hot chocolate instructions",
+        "Roughly 1 shot of flavored Rumchata of choice",
+        "1 candy cane",
+        "Marshmallows"
+      ],
+      "steps": [
+        "Prepare the hot chocolate per packaging direction (preferably using milk, not water) and add as much Rumchata as you want!",
+        "Unwrap the candy cane and use it as a drink stirrer, letting it dissolve for more flavor",
+        "Top with marshmallows"
+      ],
+      "mocktail": "Remove Rumchata, add in either peppermint syrup or flavored coffee creamer.",
+      "glassware": "Coffee cup"
+    },
+    {
+      "id": 2,
+      "name": "El Gregorita",
+      "images": {
+        "front": "https://assets.24g.com/public/2022-frontend-test-project/card2_front.png",
+        "back": "https://assets.24g.com/public/2022-frontend-test-project/card2_back.png"
+      },
+      "ingredients": [
+        "2 oz. of homemade jalapeño-infused tequila (preferably Casamigos with a jalapeño and its seeds infused for about 10 hours)",
+        "1 oz. Triple Sec",
+        "1 oz. simple syrup",
+        "1 oz. fresh lime juice",
+        "Sliced limes",
+        "Rock salt"
+      ],
+      "steps": [
+        "Dip the rim of your glass in freshly squeezed lime juice and then dip the glass rim in rock salt",
+        "Fill glass halfway with ice before adding all of your ingredients",
+        "Stir and enjoy!"
+      ],
+      "mocktail": "Infuse Topo Chico with jalapeño and replace tequila above, keep the rest the same.",
+      "glassware": "A rocks glass (a.k.a. an old fashioned glass or a lowball glass) will do the trick, hell a solo cup will work. It's the liquid that's gold!"
+    },
+    {
+      "id": 3,
+      "name": "Apple Cider Mimosa",
+      "images": {
+        "front": "https://assets.24g.com/public/2022-frontend-test-project/card3_front.png",
+        "back": "https://assets.24g.com/public/2022-frontend-test-project/card3_back.png"
+      },
+      "ingredients": [
+        "1.5 oz. caramel vodka",
+        "1.5 oz. apple cider",
+        "Topped with Champagne (about 2–3 oz.)",
+        "Caramel and cinnamon sugar for rimming (optional)"
+      ],
+      "steps": [
+        "Dip the rim of the Champagne glass in caramel and then dip in cinnamon sugar for a coated rim. It's ok if the caramel drips down into the glass, it'll make it even more delicious!",
+        "In a cocktail shaker, combine one part apple cider and one part vodka. Shake with ice. Pour into the rimmed Champagne glass + top with champagne.",
+        "Enjoy!"
+      ],
+      "mocktail": "Swap out the caramel vodka for a drizzle of caramel and swap the champagne for sparkling water.",
+      "glassware": "Champagne flute"
+    },
+    {
+      "id": 4,
+      "name": "Milk Punch",
+      "images": {
+        "front": "https://assets.24g.com/public/2022-frontend-test-project/card4_front.png",
+        "back": "https://assets.24g.com/public/2022-frontend-test-project/card4_back.png"
+      },
+      "ingredients": [
+        "2 oz. bourbon",
+        "2 oz. milk (preferably Calder’s or a higher quality one)",
+        "1/8 oz. vanilla extract",
+        "1/2 oz. simple syrup",
+        "Fresh grated nutmeg"
+      ],
+      "steps": [
+        "Combine all ingredients except the nutmeg in a cocktail shaker with ice",
+        "Shake it up",
+        "Pour over rocks",
+        "Dust with nutmeg"
+      ],
+      "mocktail": "You could take the bourbon out, but then it’s just milk and nutmeg, and that seems kinda gross. Honestly, a mocktail version might just be a glass of milk.",
+      "glassware": "Whiskey glass"
+    },
+    {
+      "id": 5,
+      "name": "Tipsy Mermaid",
+      "images": {
+        "front": "https://assets.24g.com/public/2022-frontend-test-project/card5_front.png",
+        "back": "https://assets.24g.com/public/2022-frontend-test-project/card5_back.png"
+      },
+      "ingredients": [
+        "2 oz. gin",
+        "8–10 oz. of berry flavored Kombucha",
+        "Juice of half a lemon",
+        "Garnish with rosemary sprig."
+      ],
+      "steps": ["Add ingredients to a glass of crushed ice.", "Stir!"],
+      "mocktail": "Substitute 2 oz. of gin for a splash of tonic water and 1/2 oz. of juniper berry or elderflower syrup.",
+      "glassware": "Collins glass"
+    },
+    {
+      "id": 6,
+      "name": "Blood Orange Margarita",
+      "images": {
+        "front": "https://assets.24g.com/public/2022-frontend-test-project/card6_front.png",
+        "back": "https://assets.24g.com/public/2022-frontend-test-project/card6_back.png"
+      },
+      "ingredients": [
+        "2.5 parts reposado tequila",
+        "1.5 parts sweet & sour - DO NOT substitute margarita mix",
+        "Splash of Grand Marnier, plus extra for serving",
+        "1 lime",
+        "1 blood orange"
+      ],
+      "steps": [
+        "Fill a cocktail shaker with ice.",
+        "Add the tequila, sweet & sour mix, Grand Marnier, juice from 1/4 lime and juice of 1/4 blood orange",
+        "Shake to combine",
+        "Pour the drink into a glass and garnish with juice/wedge of the lime & blood orange"
+      ],
+      "mocktail": "Replace tequila with soda or non-alcoholic tequila, replace Grand Marnier with orange juice.",
+      "glassware": "Margarita glass"
+    },
+    {
+      "id": 7,
+      "name": "Maple Old Fashioned",
+      "images": {
+        "front": "https://assets.24g.com/public/2022-frontend-test-project/card7_front.png",
+        "back": "https://assets.24g.com/public/2022-frontend-test-project/card7_back.png"
+      },
+      "ingredients": [
+        "2 oz. bourbon or rye (Buffalo Trace is a good one for this)",
+        "1/2 oz. pure maple syrup",
+        "2 dashes cherry bitters",
+        "2 dashes orange bitters",
+        "Orange peel",
+        "GOOD maraschino cherries (Marzano is preferred)"
+      ],
+      "steps": [
+        "Combine whiskey, maple syrup, and bitters in a cocktail shaker with ice",
+        "Shake until well chilled",
+        "Pour over ice in a nice crystal tumbler",
+        "Garnish with orange peel and a cherry"
+      ],
+      "mocktail": "The internet says you can brew barley tea, or there are whiskey substitutes.",
+      "glassware": "Whiskey glass"
+    },
+    {
+      "id": 8,
+      "name": "The Henry",
+      "images": {
+        "front": "https://assets.24g.com/public/2022-frontend-test-project/card8_front.png",
+        "back": "https://assets.24g.com/public/2022-frontend-test-project/card8_back.png"
+      },
+      "ingredients": [
+        "1 part tequila",
+        "1 part grapefruit juice",
+        "1 part ginger beer",
+        "Tablespoon of lime juice",
+        "Drop of simple syrup",
+        "Crushed mint"
+      ],
+      "steps": [
+        "In the bottom of a glass, muddle two mint leaves",
+        "Mix all ingredients into glass",
+        "Serve over ice"
+      ],
+      "mocktail": "Negate the tequila.",
+      "glassware": "Mason jar"
+    },
+    {
+      "id": 9,
+      "name": "The Hybrid",
+      "images": {
+        "front": "https://assets.24g.com/public/2022-frontend-test-project/card9_front.png",
+        "back": "https://assets.24g.com/public/2022-frontend-test-project/card9_back.png"
+      },
+      "ingredients": [
+        "1 oz. gin",
+        "1/4 oz. lemon juice, freshly squeezed",
+        "1/4 oz. simple syrup",
+        "1 oz. Aperol",
+        "3 oz. Champagne (or other sparkling wine)",
+        "Garnish: lemon twist/orange twist"
+      ],
+      "steps": [
+        "Using a zester or paring knife, slice peel from lemon and orange in a long, thin spiral. Reserve lemon for another use and set peel aside.",
+        "In a cocktail shaker, combine gin, lemon juice, and simple syrup. Add ice and shake vigorously for 20 seconds. Strain into a chilled Champagne flute and top with sparkling wine. Pour a small amount of Aperol over top.",
+        "Curl lemon and orange peel around finger to create twist at least 6 inches long. Garnish the drink with a twist and serve immediately."
+      ],
+      "mocktail": "Replace gin and champagne with 3 oz. soda water, add 1/4 oz. orange juice, freshly squeezed.",
+      "glassware": "Champagne flute"
+    },
+    {
+      "id": 10,
+      "name": "Cozy Spiced Old Fashioned",
+      "images": {
+        "front": "https://assets.24g.com/public/2022-frontend-test-project/card10_front.png",
+        "back": "https://assets.24g.com/public/2022-frontend-test-project/card10_back.png"
+      },
+      "ingredients": [
+        "2 oz. Woodford Reserve Bourbon",
+        "2 tsp. dark maple syrup",
+        "1 tsp. water",
+        "3 dashes Angostura bitters",
+        "1 dash ground cinnamon",
+        "1 dash ground ginger",
+        "1 dash ground cardamom",
+        "1 cinnamon stick",
+        "1 orange peel"
+      ],
+      "steps": [
+        "Add maple syrup, water, and bitters to the bottom of a rocks glass.",
+        "Add ice and bourbon and stir for 30 seconds.",
+        "Rub orange peel around rim of glass, sprinkle with cinnamon, ginger, and cardamom and drop it in.",
+        "Finish with a cinnamon stick and enjoy"
+      ],
+      "mocktail": "Replace whiskey with a non-alcoholic brand (Ritual Zero Proof, Lyre's American Malt) or equal parts spiced or barley tea.",
+      "glassware": "Whiskey glass"
+    },
+    {
+      "id": 11,
+      "name": "Cucumber Collins",
+      "images": {
+        "front": "https://assets.24g.com/public/2022-frontend-test-project/card11_front.png",
+        "back": "https://assets.24g.com/public/2022-frontend-test-project/card11_back.png"
+      },
+      "ingredients": [
+        "Freshly squeezed lemon juice",
+        "Simple syrup",
+        "Hendrick's Gin",
+        "Club soda",
+        "Sliced cucumber",
+        "Fresh mint leaves"
+      ],
+      "steps": [
+        "In the bottom of a mixing glass, muddle: 4-5 cucumber slices, 1 small mint leaf, 1 oz. lemon juice, 1 oz. simple syrup.",
+        "Add 2 oz. gin, along with ice, and shake.",
+        "Strain over fresh ice into a tall glass, then top with soda.",
+        "Garnish with mint leaves."
+      ],
+      "mocktail": "Skip the gin.",
+      "glassware": "Collins glass"
+    },
+    {
+      "id": 12,
+      "name": "White Russian",
+      "images": {
+        "front": "https://assets.24g.com/public/2022-frontend-test-project/card12_front.png",
+        "back": "https://assets.24g.com/public/2022-frontend-test-project/card12_back.png"
+      },
+      "ingredients": [
+        "2 oz. vodka",
+        "1 oz. coffee liqueur (Kahlúa)",
+        "1/2 oz. high-fat cream (to avoid curdling)"
+      ],
+      "steps": [
+        "Pour vodka into glass (preferably over ice)",
+        "Add Kahlúa",
+        "Pour milk or cream over it",
+        "Drink is about 50% vodka, 30-40% Kahlúa, 10-20% cream or milk (I just do a splash of cream or milk to change the color, but this is usually how it is prepared).",
+        "Milk can make the drink curdle a bit (depending on the kind of milk being used) so, if that is an issue, cream is definitely the go to!"
+      ],
+      "mocktail": "Swap the vodka for 2 oz. dry sparkling vanilla soda.",
+      "glassware": "Whiskey glass"
+    }
+  ]
+}
