@@ -1,6 +1,6 @@
-# 24G Frontend Test Project
+# Webpage for Recipies
 
-Build a single webpage that is used to display popular recipes recommended by members of the 24G team
+Build a single webpage that is used to display popular recipes recommended by my friends 
 
 
 ## Authors
