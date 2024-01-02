@@ -43,12 +43,15 @@ function showModal(drink) {
 
   <!-- Header containing company logo and introductory text -->
   <div class="header">
-    <!-- Company logo -->
+
+    <!-- logo -->
+    <!-- Comment 
     <img
-      src="https://assets.24g.com/public/2022-frontend-test-project/24g_logo.svg"
-      alt="24G Logo"
+      src="https://ibb.co/nn5d46B" 
+      alt="Logo"
       class="logo"
-    />
+    /> -->
+
     <!-- Introductory text section -->
     <div class="text-container">
       <h1 class="heading-text">Welcome Holiday Text</h1>

@@ -7,7 +7,7 @@
 /* Page Background */
 body {
   background-color: #1f1f1f;
-  background-image: url("https://assets.24g.com/public/2022-frontend-test-project/bg_desktop.png");
+  background-image: url('../public/images/bg_desktop.png');
   font-family: "Brandon Grotesque", sans-serif; /* Using a custom font */
 }
 
@@ -88,7 +88,7 @@ p {
 /* Responsive styles for tablet devices */
 @media screen and (min-width: 601px) and (max-width: 1023px) {
   body {
-    background-image: url("https://assets.24g.com/public/2022-frontend-test-project/bg_tablet.png");
+    background-image: url('../public/images/bg_tablet.png');
     margin-top: 50px;
   }
 
@@ -109,7 +109,7 @@ p {
 /* Responsive styles for mobile devices */
 @media screen and (max-width: 600px) {
   body {
-    background-image: url("https://assets.24g.com/public/2022-frontend-test-project/bg_mobile.png");
+    background-image: url('../public/images/bg_mobile.png');
     margin-top: 40px;
   }
 
